@@ -3,6 +3,7 @@
 #include <cstdlib>  // For srand and rand
 #include <ctime>  
 
+
 class Saper {
 private:
     int** board;  // Pointer to a pointer (2D board)
