@@ -1,6 +1,7 @@
 #include <iostream>
 #include <windows.h>
 #include "Saper.hpp"
+#include "Saper.cpp"
 
 
 int main(int argc, char const *argv[])
@@ -14,7 +15,7 @@ int main(int argc, char const *argv[])
     std::cout << "Szerokosc planszy: " << "\n";
     std::cin >> width;    
     
-    Saper game(height, width, 0.1);
+    Saper game(height, width, 0.3);
 
     game.printArray();
     return 0;
